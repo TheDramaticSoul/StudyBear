@@ -5,7 +5,7 @@ StudyBear
 
 Purpose:  To create an Android application(and backing server application) that facilitates setting users(students) up for studying  
   
-Team:  Jeremy Scott, Darcie Odom, Chad Reynolds  
+Team: Naveen Dabas, Ganesh Verma, Vishal Gahlot 
   
   
 ===========  
