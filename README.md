@@ -24,7 +24,7 @@ Copyright information
 
 Study Bear - Mobile Social application and server backend for grouping 
 study partners together
-Copyright (C) 2016 Jeremy Scott, Darcie Odom, Chad Reynolds
+Copyright (C) 2016 Naveen Dabas, Ganesh Verma, Vishal Gahlot
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
