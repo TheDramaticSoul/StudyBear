@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/LinearLayoutC">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.00"
+            android:text="School"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/universitySpinner"
+            android:layout_weight="0.00"
+            android:background="@drawable/button"
+            android:popupBackground="@drawable/button"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Major"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/majorSpinner"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button"
+            android:popupBackground="@drawable/button"/>
+
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginBottom="5dp"
+           android:layout_weight="0.00"
+            android:text="Classes"
+           android:textSize="16sp"
+            android:textColor="#FFFFFF" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3sp"
+            android:id="@+id/classSpinner"
+            android:layout_weight="0.00"
+            android:background="@drawable/button"
+            android:popupBackground="@drawable/button"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:id="@+id/classListView"
+            android:layout_weight="0.00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00">
+
+        <Button
+            android:background="@drawable/button"
+            android:textColor="#FFFFFF"
+            android:layout_margin="3dp"
+            android:padding="3sp"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Add Class"
+            android:id="@+id/button3"
+            android:onClick="Add"/>
+
+        <Button
+            android:background="@drawable/button"
+            android:textColor="#FFFFFF"
+            android:layout_margin="3dp"
+            android:padding="3sp"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/button10"
+            android:layout_marginLeft="10dp"
+            android:onClick="Save"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="*Tap and hold a class to remove."
+            android:id="@+id/textView10"
+            android:textColor="#FFFFFF"
+            android:layout_margin="3dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>

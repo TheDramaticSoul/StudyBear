@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+    android:background="#5AB7D1"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/findMatchButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="1sp"
+        android:layout_toLeftOf="@+id/inboxButton"
+        android:layout_toStartOf="@+id/inboxButton"
+        android:background="#4675A3"
+        android:text="Find Match"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/inboxButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="1sp"
+        android:layout_toLeftOf="@+id/profileButton"
+        android:layout_toStartOf="@+id/profileButton"
+        android:background="#4675A3"
+        android:text="Inbox"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/profileButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="1sp"
+        android:layout_toLeftOf="@+id/logoutButton"
+        android:layout_toStartOf="@+id/logoutButton"
+        android:background="#4675A3"
+        android:text="Profile"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="1sp"
+        android:background="#4675A3"
+        android:text="Logout"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+
+==========================
+Mock-up list for the RAD:
+==========================
+
+-Login
+-User Profile (and in edit mode)
+-Search/Search Result
+-Inbox
+-Compose Message
+-Register Account
+-Manage Block List
+-Add/Edit Classes

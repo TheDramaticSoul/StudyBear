@@ -1,0 +1,6 @@
+.DS_Store
+*.test
+system_vars.xml
+.idea
+*.iml
+*.class

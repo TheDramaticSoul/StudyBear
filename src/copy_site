@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cp -v index.php /Applications/XAMPP/xamppfiles/htdocs/studybear/
+cp -v DBConnector.php /Applications/XAMPP/xamppfiles/htdocs/studybear/
+cp -v DBConstants.php /Applications/XAMPP/xamppfiles/htdocs/studybear/

@@ -1,0 +1,19 @@
+-server request code
+-layouts
+-android in general
+-deciding how to implement server-client connection
+
+-finding a php library to send emails on the server side
+-how to effectively generate matches
+-what information to store in database
+-overall design decisions
+
+-more complicated application decisions (not a simple flow, user choices spider out)
+-differences between initial database relations and the actual implementations for the prototype
+-what is finished in the prototype and what is not
+-data format for transferring data efficiently between application and server
+
+-still have to figure out how to do user sessions in the application
+-learning version control system and trying to improve documentation methods
+-deciding on what functionality is critical to the system and what can be left out for future updates
+-what functionality is worth factoring out and what optimizations are unnecessary
